@@ -1,4 +1,4 @@
-
+## Gait Based Person Identification Using Machine Learning
 
 This repository contains the preprocessing, feature engineering, exploratory analysis, and gait-based person identification experiments conducted using flat-terrain walking trials.
 
