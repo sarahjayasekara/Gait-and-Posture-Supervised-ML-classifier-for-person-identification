@@ -1,0 +1,3 @@
+Model,Mean dimensions,Dimension reduction (%),Variance retained (%),Accuracy (%),Balanced accuracy (%),Macro F1 (%)
+Without dimensionality reduction,91.0,0.0,100.0,96.36,95.04,94.82
+PCA dimensionality reduction,26.17361111111111,71.23778998779,95.23052541566472,95.62389487339007,93.9785220463066,93.80648785150457
