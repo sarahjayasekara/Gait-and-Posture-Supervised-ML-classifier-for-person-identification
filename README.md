@@ -1,5 +1,11 @@
 ## Gait Based Person Identification Using Machine Learning
 
+<p align="center">
+  <img src="06c7e907-84c2-43fe-930f-8ce2ae6eb36a.png"
+       alt="Gait and Posture Analysis using Machine Learning"
+       width="100%">
+</p>
+
 This repository contains the preprocessing, feature engineering, exploratory analysis, and gait-based person identification experiments conducted using flat-terrain walking trials.
 
 The project focuses on organizing gait recordings into a reproducible dataset, extracting cycle-level features, and evaluating machine-learning models for person identification.
@@ -265,8 +271,4 @@ To reproduce the analysis:
 
 Do not move individual measurement CSV files outside their participant/trial folders unless the corresponding project paths and provenance records are also updated.
 
-<p align="center">
-  <img src="06c7e907-84c2-43fe-930f-8ce2ae6eb36a.png"
-       alt="Gait and Posture Analysis using Machine Learning"
-       width="100%">
-</p>
+
