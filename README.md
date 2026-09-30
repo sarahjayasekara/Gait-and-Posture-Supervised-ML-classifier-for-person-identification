@@ -1,7 +1,7 @@
 ## Gait Based Person Identification Using Machine Learning
 
 <p align="center">
-  <img src="06c7e907-84c2-43fe-930f-8ce2ae6eb36a.png"
+  <img src="image1.png"
        alt="Gait and Posture Analysis using Machine Learning"
        width="100%">
 </p>
