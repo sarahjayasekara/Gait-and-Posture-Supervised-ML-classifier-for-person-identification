@@ -14,8 +14,8 @@ During dataset preparation:
 
 - Empty source trials were excluded.
 - Repeated angle datasets were removed.
-- `Madhumini` was excluded because no eligible flat-terrain recordings were available.
-- One retained trial for `Thenuri` is marked as having **device 9 missing**.
+- Person `M` was excluded because no eligible flat-terrain recordings were available.
+- One retained trial for person `T` is marked as having **device 9 missing**.
 - Original source files were not modified.
 - Copied file sizes were verified.
 - All copied CSV files were additionally verified using **SHA-256 hashes**.
