@@ -1,3 +1,0 @@
-timestamp_utc,mode_file,axes_file,group_name,trace_name,angle_column,axis_columns,rows,note
-2026-09-08T05:22:50+00:00,limb_angle_mode.csv,limb_axes_mode.csv,left_ankle_to_foot,mode_1,left_ankle_to_foot_mode_1,left_ankle_to_foot_mode_1_axis_x left_ankle_to_foot_mode_1_axis_y left_ankle_to_foot_mode_1_axis_z,1946,manual dashboard flip
-2026-09-08T05:22:55+00:00,limb_angle_mode.csv,limb_axes_mode.csv,right_ankle_to_foot,mode_1,right_ankle_to_foot_mode_1,right_ankle_to_foot_mode_1_axis_x right_ankle_to_foot_mode_1_axis_y right_ankle_to_foot_mode_1_axis_z,1946,manual dashboard flip

@@ -1,2 +1,0 @@
-timestamp_utc,mode_file,axes_file,group_name,trace_name,angle_column,axis_columns,rows,note
-2026-09-04T12:23:54+00:00,limb_angle_mode.csv,limb_axes_mode.csv,left_hip_to_knee,mode_1,left_hip_to_knee_mode_1,left_hip_to_knee_mode_1_axis_x left_hip_to_knee_mode_1_axis_y left_hip_to_knee_mode_1_axis_z,3264,manual dashboard flip
