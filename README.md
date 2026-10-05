@@ -54,6 +54,7 @@ G&P/
 │   ├── 03_feature_engineering.ipynb
 │   ├── 04_svm_evaluation.ipynb
 │   ├── 05_pca_svm_model.ipynb
+│   ├── 07_random_forest.ipynb
 │   └── 00_results.ipynb
 │
 ├── results/
@@ -150,6 +151,31 @@ Applies **Principal Component Analysis (PCA)** before Linear SVM classification 
 `00_results.ipynb`
 
 Collects the main experimental results, comparisons, and final interpretation in one place.
+
+---
+
+### Random Forest comparison
+
+`analysis/07_random_forest.ipynb` evaluates a fixed Random Forest baseline using
+the same 91 features and 1,440 complete-trial holdouts as the SVM experiments.
+Run it after generating the SVM cycle predictions in `06_per_person.ipynb`.
+It requires the feature CSV and both `model_a_cycle_predictions.csv` and
+`model_b_pca_cycle_predictions.csv` in `results/`. It checks cycle identities
+and held-out trial assignments before computing the comparison.
+
+The notebook uses 100 trees, square-root feature sampling, a minimum leaf size
+of two, balanced class weights, and random seed 42. It performs no parameter
+tuning. All preprocessing phases of a trial stay in the same split. Outputs
+are saved with the `rf_` prefix, including per-split metrics, cycle predictions,
+trial majority-vote stability, confusion matrices, comparisons with SVM, and a
+focused Muthuni Trial 3 comparison. `rf_run_config.json` records the settings,
+package version, feature columns, and input file hashes.
+
+Select a Python environment with numpy, pandas, matplotlib, scikit-learn, and
+joblib, then restart the kernel and run all cells. The evaluation uses four
+parallel split workers; set `PARALLEL_SPLITS = 1` if memory is limited.
+Repeated predictions across holdout combinations are not independent samples.
+Any future parameter tuning must stay inside the outer training folds.
 
 ---
 

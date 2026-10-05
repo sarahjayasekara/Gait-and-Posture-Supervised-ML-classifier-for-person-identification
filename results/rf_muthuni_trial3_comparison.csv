@@ -1,0 +1,4 @@
+model,cycle_accuracy_pct,predicted_as_Buddhini_pct,trial_vote_correct_pct
+Linear SVM,76.875,20.511363636363637,100.0
+PCA + Linear SVM,70.3219696969697,28.882575757575758,99.375
+Random Forest,88.03030303030303,0.0946969696969697,100.0

@@ -1,0 +1,34 @@
+phase,cycle_index,identification_pct,model
+1,1,100.0,Linear SVM
+1,2,100.0,Linear SVM
+1,3,52.083333333333336,Linear SVM
+1,4,61.25000000000001,Linear SVM
+1,5,0.0,Linear SVM
+1,6,100.0,Linear SVM
+1,7,100.0,Linear SVM
+1,8,100.0,Linear SVM
+1,9,65.41666666666667,Linear SVM
+1,10,95.625,Linear SVM
+1,11,71.25,Linear SVM
+1,1,100.0,PCA + Linear SVM
+1,2,100.0,PCA + Linear SVM
+1,3,32.5,PCA + Linear SVM
+1,4,27.708333333333336,PCA + Linear SVM
+1,5,0.0,PCA + Linear SVM
+1,6,92.5,PCA + Linear SVM
+1,7,73.54166666666667,PCA + Linear SVM
+1,8,100.0,PCA + Linear SVM
+1,9,57.70833333333333,PCA + Linear SVM
+1,10,92.91666666666667,PCA + Linear SVM
+1,11,96.66666666666667,PCA + Linear SVM
+1,1,5.0,Random Forest
+1,2,64.375,Random Forest
+1,3,100.0,Random Forest
+1,4,100.0,Random Forest
+1,5,100.0,Random Forest
+1,6,98.95833333333334,Random Forest
+1,7,100.0,Random Forest
+1,8,100.0,Random Forest
+1,9,100.0,Random Forest
+1,10,100.0,Random Forest
+1,11,100.0,Random Forest
